@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notice.NoticeFragment">
+
+
+        <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/putoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="PU"
+            android:textColor="#3D155F"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/infinite_100" />
+
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/feedrecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/putoolbar"
+        tools:listitem="@layout/sample_feed" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/putoolbar">
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmer_view_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/shimmeranimation" />
+
+                <include layout="@layout/shimmeranimation" />
+
+                <include layout="@layout/shimmeranimation" />
+
+                <include layout="@layout/shimmeranimation" />
+
+                <include layout="@layout/shimmeranimation" />
+
+                <include layout="@layout/shimmeranimation" />
+
+                <include layout="@layout/shimmeranimation" />
+
+                <include layout="@layout/shimmeranimation" />
+
+                <include layout="@layout/shimmeranimation" />
+
+                <include layout="@layout/shimmeranimation" />
+
+                <include layout="@layout/shimmeranimation" />
+
+                <include layout="@layout/shimmeranimation" />
+
+                <include layout="@layout/shimmeranimation" />
+
+                <include layout="@layout/shimmeranimation" />
+
+                <include layout="@layout/shimmeranimation" />
+
+                <include layout="@layout/shimmeranimation" />
+
+                <include layout="@layout/shimmeranimation" />
+            </LinearLayout>
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

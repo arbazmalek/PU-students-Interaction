@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">PU CONNECT</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/signikabold</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/signikaregular</string>
+    <string name="light" tools:ignore="ReferenceType">@font/signikalight</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="puinfo">A state of the art campus, situated in
+               Gujarat’s cultural capital, Vadodara. From the date of its
+              inception in 1993, to the point of its recognition as Parul
+               University in the year 2015, the University has grown into one
+               of India’s leading academic Institutions. Parul University is an
+               embodiment of the essence of cultural heritage and diversity with a
+                blend of 21st century modernity. The University is an amalgamation
+                of 20 faculties and 36 institutes, with a plethora of diploma,
+                undergraduate and post graduate programs in numerous disciplines.
+                Offering a range of over 450 uniquely structured programs, designed to
+                 suit the career prospects of every student aspirant. The 150-acre
+                 lush green campus is home to over 35,000 national and international
+                  students from 64 countries, making Parul University a culturally global
+                  destination. As a mark of excellence, the University has been awarded as
+                  Best Private University in Western India by Praxis Media, Best University
+                  in Placements by ASSOCHAM and ranked among the Top 50 Private Universities
+                  for Leading Innovation Achievements 2020 by ARIIA, Ministry of Human Resource
+                  Development. Our Multidisciplinary network of expert faculties, corporate ties,
+                  collaborative research and global partnerships provide our students with an enriching
+                   University experience, uniquely shaping every student, to shape the world.</string>
+    <string name="title_activity_nontech_group">Nontech_group_activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

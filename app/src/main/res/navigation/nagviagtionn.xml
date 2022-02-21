@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nagviagtionn"
+    app:startDestination="@id/nagviagtion_notice">
+
+    <fragment android:id="@+id/nagviagtion_home"
+        android:name="com.arbaz.pusiapp.ui.home.HomeFragment"
+        android:label="PU"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment android:id="@+id/nagviagtion_notice"
+        android:name="com.arbaz.pusiapp.ui.notice.NoticeFragment"
+        android:label="Notice"
+        tools:layout="@layout/fragment_notice"/>
+
+    <fragment android:id="@+id/nagviagtion_gallery"
+        android:name="com.arbaz.pusiapp.ui.chat.ChatFragment"
+        android:label="GAllery"
+        tools:layout="@layout/fragment_chat"/>
+
+
+</navigation>
